@@ -1,0 +1,68 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif; */
+.mainContainer {
+  background-color: rgb(15, 25, 49);
+  height: 100vh;
+}
+.appTitle {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  color: #ffffff;
+}
+.wrappingContainer {
+  display: flex;
+  justify-content: center;
+}
+.quizContainer {
+  width: 500px;
+  background-color: darkorange;
+  border-radius: 15px;
+}
+.questionContainer {
+  background-color: #ffffff;
+  margin: 20px;
+  padding: 25px;
+  border-radius: 10px;
+}
+.questionNmr {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+}
+.question {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+}
+.optionContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 6px;
+}
+.optionBtn {
+  margin: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+.optionBtn:hover {
+  background-color: rgb(190, 254, 0);
+}
+.activeBtn {
+  background-color: rgb(190, 254, 0);
+}
+.nxtBtn {
+  margin-bottom: 1rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+  border: none;
+}
+.tryAgainBtn {
+  margin-bottom: 1rem;
+}
